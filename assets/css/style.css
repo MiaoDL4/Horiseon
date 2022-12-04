@@ -1,11 +1,11 @@
-/* Univerals */
+/* || Univerals */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/* element */
+/* || element */
 body {
     background-color: #d9dcd6;
 }
@@ -19,57 +19,8 @@ p {
     font-size: 16px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.content article{
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content article img {
-    max-height: 200px;
-}
-
-.content article h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.benefits article {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefits article h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-.benefits article  img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* class */
+/* ||class roughtly follow flow of page*/
+/* || header section .header selectors*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -101,6 +52,7 @@ p {
     margin-left: 25px;
 }
 
+/* || image banner .hero */
 .hero {
     height: 800px;
     width: 100%;
@@ -110,8 +62,59 @@ p {
     background-position: center;
 }
 
+/* || main inforation section .content selectors*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
 
+.content article{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
 
+.content article img {
+    max-height: 200px;
+}
+
+.content article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* || aside section .benefits selectors */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefits article {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefits article h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.benefits article  img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* || footer section .footer selectors */
 .footer {
     padding: 30px;
     clear: both;
@@ -123,6 +126,8 @@ p {
     font-size: 20px;
 }
 
+
+/* || formating selectors */
 .float-left {
     float: left;
     margin-right: 25px;
