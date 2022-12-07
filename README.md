@@ -8,7 +8,7 @@ N/A
 
 ## usage
 view the differences between the original code found in the first commit to the current version, though github page and viewin the commits.
-view the current verion that has been deployed here: ___________
+view the current verion that has been deployed here: https://miaodl4.github.io/Horiseon/
 
 ## Credits
 N/A
